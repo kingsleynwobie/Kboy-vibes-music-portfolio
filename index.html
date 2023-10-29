@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="stylesheet" href="styles.css">
+    <title>Kboy Vibes Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>KBOY VIBES</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="songs.html"><i class="fas fa-music"></i> Songs</a></li>
+                    <li><a href="playlist.html"><i class="fas fa-list"></i> Playlist</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+    <!-- ... (previous code) ... -->
+
+<section id="images" class="section">
+    <div class="container">
+        <div class="image-gallery">
+            <img src="IMG_20230605_210939_359.jpg" alt="Image 1">
+            <img src="IMG_20230615_013927_076.jpg" alt="Image 2">
+            <img src="IMG_20230831_091019_331.jpg" alt="Image 3">
+            <img src="IMG_20230901_193824_119.jpg" alt="Image 4">
+            <img src="IMG_20231022_173724_023.jpg" alt="Image 5">
+        </div>
+    </div>
+</section>
+
+<!-- ... (rest of the code) ... -->
+
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+/* ... (previous styles) ... */
+
+body{
+    background-color: black;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: #343a40;
+}
+
+/* ... (previous styles) ... */
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Display 3 images per row on larger screens */
+@media (min-width: 668px) {
+    .image-gallery img {
+        width: calc(33.33% - 20px); /* 3 images per row, with margins between images */
+    }
+}
+
+/* Display 2 images per row on smaller screens */
+@media (max-width: 667px) {
+    .image-gallery img {
+        width: calc(30% - 10px); /* 2 images per row, with margins between images */
+    }
+}
+
+/* Display 1 image per row on even smaller screens */
+@media (max-width: 380px) {
+    .image-gallery img {
+        width: calc(50% - 10px); /* 1 image per row, with margins between images */
+    }
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 1px;
+}
+
+nav ul {
+    list-style: none;
+}body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #ffffff;
+}
+
+/* ... (previous styles) ... */
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* ... (rest of the styles) ... */
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.track {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+    </style>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Music Portfolio</p>
+        </div>
+    </footer>
+</body>
+</html>

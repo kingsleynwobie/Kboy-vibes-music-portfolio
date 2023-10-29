@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and stylesheets here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Your Music Portfolio</title>
+    <style>
+        /* Global styles (outside of media queries) */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: burlywood;
+            color: #343a40;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .form-container {
+            margin-top: 20px;
+            text-align: left;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .form-container label,
+        .form-container input,
+        .form-container textarea {
+            display: block;
+            margin-bottom: 15px;
+            width: 100%;
+        }
+
+        .form-container textarea {
+            height: 150px;
+        }
+
+        .form-container input[type="submit"] {
+            background-color: #343a40;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #555e68;
+        }
+
+        /* Media query for small screens (e.g., mobile devices) */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%; /* Adjust container width for small screens */
+            }
+
+            .social-media i {
+                font-size: 24px; /* Increase icon size for small screens */
+            }
+        }
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    color: #343a40;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 20px; /* Add padding for responsiveness */
+    box-sizing: border-box;
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.form-container {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 100%; /* Make the form container responsive */
+}
+
+.form-container label,
+.form-container input,
+.form-container textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: calc(100% - 30px); /* Adjust input width and add spacing */
+    padding: 10px;
+    font-size: 16px; /* Increase font size for better readability */
+    box-sizing: border-box;
+}
+
+.form-container textarea {
+    height: 150px;
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.form-container input[type="submit"] {
+    background-color: #343a40;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #555e68;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin-right: 15px; /* Add spacing between social media icons */
+    font-size: 24px; /* Increase social media icon size */
+    color: #343a40; /* Set icon color */
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #555e68; /* Change icon color on hover */
+}
+
+    </style>
+</head>
+<body>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:your@email.com">kingsleynwobie@gmail.com</a></p>
+            <p>Phone: +243 (810) 488 4221</p>
+
+            <!-- Additional input fields for message and phone number -->
+            <form action="#" method="post">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br>
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/@Kboy vibes" target="_Kboyvibes"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/@Kmoney0147" target="_Kmoney0147"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.x.com/@yourprofile" target="_blank"><i class="fas fa-times"></i></a>
+                <a href="https://www.tiktok.com/@Kboyvibes0147" target="_Kboyvibes0147"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other sections (About, Portfolio, Playlist, etc.) can be added here -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Music Portfolio</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and stylesheets here -->
+    <title>Your Music Portfolio</title>
+</head>
+<body>
+    <section id="playlist" class="section">
+        <div class="container">
+            <h2>Playlist</h2>
+            <ul class="playlist">
+                <li>
+                    <style>
+                        /* ... (previous styles) ... */
+
+body{
+    background-color: black;
+}
+
+                        .playlist {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist li {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.song-info h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.song-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Responsive styles */
+
+@media (max-width: 767px) {
+    .song-info h3 {
+        font-size: 20px;
+    }
+
+    .song-info p {
+        font-size: 14px;
+    }
+}
+
+                    </style>
+                    <div class="song-info">
+                        <h3>Song Title 1</h3>
+                        <p>Artist: Artist Name</p>
+                    </div>
+                    <audio controls>
+                        <source src="song1.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </li>
+                <li>
+                    <div class="song-info">
+                        <h3>Song Title 2</h3>
+                        <p>Artist: Artist Name</p>
+                    </div>
+                    <audio controls>
+                        <source src="song2.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </li>
+                <!-- Add more songs as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Other sections (About, Images, Contact, etc.) can be added here -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Music Portfolio</p>
+        </div>
+    </footer>
+</body>
+</html>
